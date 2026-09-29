@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b0e">
+  <title>Projects — Software &amp; Hardware</title>
+  <meta name="description" content="Software and hardware projects: live show tools, remote coding workflows, ServiceNow utilities, and embedded experiments.">
+  <link rel="canonical" href="https://arizzi74.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Projects — Software &amp; Hardware">
+  <meta property="og:description" content="Software and hardware projects, with source code and documentation.">
+  <meta property="og:url" content="https://arizzi74.github.io/">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="brand" href="./" aria-label="Project collection home"><span class="brand-mark" aria-hidden="true">[ / ]</span><span>Project index</span></a>
+    <nav aria-label="Main navigation"><a href="#projects">Collection <span aria-hidden="true">↘</span></a><a class="github-link" href="https://github.com/arizzi74">GitHub <span aria-hidden="true">↗</span></a></nav>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-margin">
+        <p class="eyebrow">SOFTWARE &amp; HARDWARE</p>
+        <span class="margin-rule" aria-hidden="true"></span>
+        <p class="hero-topics">Show control<br>Coding tools<br>Embedded systems</p>
+      </div>
+      <div class="hero-copy">
+        <h1 id="hero-title">Software. Hardware.<br><em>Side projects.</em></h1>
+        <div class="hero-bottom"><a class="index-link" href="#projects">Browse the collection <span aria-hidden="true">↘</span></a><span class="hero-note">Code / devices / experiments</span></div>
+      </div>
+      <div class="hero-baseline" aria-hidden="true"><span>PROJECT INDEX</span><span>SCROLL TO BROWSE ↓</span></div>
+    </section>
+
+    <section id="projects" class="projects wrap" aria-labelledby="projects-title">
+      <div class="section-heading"><p class="eyebrow">01 / COLLECTION</p><h2 id="projects-title">The projects<span class="heading-period">.</span></h2></div>
+      <div class="collection-bar"><div class="filters" role="group" aria-label="Filter projects" hidden><button type="button" data-filter="all" aria-pressed="true">All projects</button><button type="button" data-filter="software" aria-pressed="false">Software</button><button type="button" data-filter="hardware" aria-pressed="false">Hardware</button></div></div>
+
+      <div class="project-grid">
+        <article class="project-card featured stage" data-category="software">
+          <a class="project-preview stage-preview" href="https://arizzi74.github.io/Smart-Stage/" aria-label="Visit the Smart Stage website"><span class="preview-caption"><span class="status-dot" aria-hidden="true"></span> DESKTOP APP + PHONE REMOTE</span><img class="stage-desktop" src="assets/smart-stage.png" width="1400" height="1070" alt="Smart Stage desktop playlist with media and cue controls" fetchpriority="high"><img class="stage-phone" src="assets/smart-stage-remote.png" width="430" height="860" alt="Smart Stage phone remote with colored cue buttons"></a>
+          <div class="card-body"><div class="card-topline"><span class="project-number" aria-hidden="true">01</span><span class="eyebrow">LIVE SHOW CONTROL</span></div><h3><a href="https://arizzi74.github.io/Smart-Stage/">Smart Stage</a></h3><p>Audio, video, and image cue playback for Mac and Windows, with a desktop playlist and remote controls for phones and tablets.</p><div class="card-bottom"><span class="project-meta">macOS · Windows</span><div class="card-links"><a href="https://github.com/arizzi74/Smart-Stage" aria-label="Smart Stage repository">Source <span aria-hidden="true">↗</span></a><a class="visit-link" href="https://arizzi74.github.io/Smart-Stage/">Visit website <span aria-hidden="true">↗</span></a></div></div></div>
+        </article>
+
+        <article class="project-card featured gateway" data-category="software">
+          <a class="project-preview gateway-preview" href="https://arizzi74.github.io/Codex-Telegram-Gateway/" aria-label="Visit the Codex Telegram Gateway website"><span class="preview-caption"><span class="status-dot" aria-hidden="true"></span> BROWSER SESSION INTERFACE</span><img src="assets/telegram-gateway.png" width="1440" height="980" alt="Codex Telegram Gateway browser interface with sessions and a conversation" fetchpriority="high"></a>
+          <div class="card-body"><div class="card-topline"><span class="project-number" aria-hidden="true">02</span><span class="eyebrow">REMOTE CODING</span></div><h3><a href="https://arizzi74.github.io/Codex-Telegram-Gateway/">Codex Telegram Gateway</a></h3><p>A self-hosted gateway for accessing Codex sessions through Telegram and a browser, with workers running on Linux or macOS.</p><div class="card-bottom"><span class="project-meta">Go · Linux · macOS</span><div class="card-links"><a href="https://github.com/arizzi74/Codex-Telegram-Gateway" aria-label="Codex Telegram Gateway repository">Source <span aria-hidden="true">↗</span></a><a class="visit-link" href="https://arizzi74.github.io/Codex-Telegram-Gateway/">Visit website <span aria-hidden="true">↗</span></a></div></div></div>
+        </article>
+
+        <article class="project-card compact" data-category="software"><span class="project-number" aria-hidden="true">03</span><span class="eyebrow">SERVICENOW · CLI</span><h3><a href="https://github.com/arizzi74/build-agent-cli">Build Agent CLI</a></h3><p>A terminal client for ServiceNow Build Agent with AI conversations, local application builds, and synchronization between local files and instances.</p><div class="card-bottom"><span class="project-meta">Go</span><a href="https://github.com/arizzi74/build-agent-cli" aria-label="Build Agent CLI repository">View repository <span aria-hidden="true">↗</span></a></div></article>
+        <article class="project-card compact" data-category="software"><span class="project-number" aria-hidden="true">04</span><span class="eyebrow">SERVICENOW · UTILITY</span><h3><a href="https://github.com/arizzi74/App-Copier">App Copier</a></h3><p>A browser-based tool for copying custom ServiceNow applications between instances, with mirroring, exclusions, and optional renaming.</p><div class="card-bottom"><span class="project-meta">JavaScript</span><a href="https://github.com/arizzi74/App-Copier" aria-label="App Copier repository">View repository <span aria-hidden="true">↗</span></a></div></article>
+        <article class="project-card compact" data-category="hardware"><span class="project-number" aria-hidden="true">05</span><span class="eyebrow">ESP32 · MUSIC</span><h3><a href="https://github.com/arizzi74/ES32-Analog-Style-Midi-Synth">Analog-style MIDI Synth</a></h3><p>An ESP32 MIDI synthesizer with analog-modeled filters, dual envelopes, LFO modulation, and settings saved to flash.</p><div class="card-bottom"><span class="project-meta">C · ESP32</span><a href="https://github.com/arizzi74/ES32-Analog-Style-Midi-Synth" aria-label="Analog-style MIDI Synth repository">View repository <span aria-hidden="true">↗</span></a></div></article>
+        <article class="project-card compact" data-category="hardware"><span class="project-number" aria-hidden="true">06</span><span class="eyebrow">E-PAPER · CONNECTED DISPLAY</span><h3><a href="https://github.com/arizzi74/lilygo-quote-display">Lilygo Quote Display</a></h3><p>Random Italian quotes on a Lilygo T5 4.7-inch e-paper display, with Wi-Fi configuration, periodic refresh, and deep-sleep power saving.</p><div class="card-bottom"><span class="project-meta">C · ESP32</span><a href="https://github.com/arizzi74/lilygo-quote-display" aria-label="Lilygo Quote Display repository">View repository <span aria-hidden="true">↗</span></a></div></article>
+        <article class="project-card compact" data-category="hardware"><div class="symbol-row"><span class="project-number" aria-hidden="true">07</span><span class="fork-badge">Fork</span></div><span class="eyebrow">ESP32 · ARCADE</span><h3><a href="https://github.com/arizzi74/ESP32-C6-LCD-galagino">ESP32-C6 Galagino</a></h3><p>A Galagino fork for the ESP32-C6 board with a 1.47-inch display, supporting Galaga, Pac-Man, and Donkey Kong.</p><div class="card-bottom"><span class="project-meta">C · ESP32-C6</span><a href="https://github.com/arizzi74/ESP32-C6-LCD-galagino" aria-label="ESP32-C6 Galagino repository">View repository <span aria-hidden="true">↗</span></a></div></article>
+        <article class="project-card compact" data-category="hardware"><div class="symbol-row"><span class="project-number" aria-hidden="true">08</span><span class="fork-badge">Fork</span></div><span class="eyebrow">ARDUINO · LED DISPLAY</span><h3><a href="https://github.com/arizzi74/pov_fan">POV Fan</a></h3><p>Tools for reprogramming Series 45 POV fans, with updated character maps, a Python 3 script, and an Arduino sketch.</p><div class="card-bottom"><span class="project-meta">C++ · Python</span><a href="https://github.com/arizzi74/pov_fan" aria-label="POV Fan repository">View repository <span aria-hidden="true">↗</span></a></div></article>
+        <article class="project-card compact" data-category="software"><span class="project-number" aria-hidden="true">09</span><span class="eyebrow">DOCKER · DIAGNOSTICS</span><h3><a href="https://github.com/arizzi74/csysdig_docker4mac">csysdig for Docker on Mac</a></h3><p>A minimal Docker container with sysdig and csysdig, including a kernel module compiled at build time for system inspection.</p><div class="card-bottom"><span class="project-meta">Dockerfile</span><a href="https://github.com/arizzi74/csysdig_docker4mac" aria-label="csysdig for Docker on Mac repository">View repository <span aria-hidden="true">↗</span></a></div></article>
+        <article class="project-card compact" data-category="software"><span class="project-number" aria-hidden="true">10</span><span class="eyebrow">SERVICENOW · DEMO</span><h3><a href="https://github.com/arizzi74/digitalvisitor">Digital Visitor</a></h3><p>A Digital Visitor demo application for ServiceNow, with the instance-generated application files available in the repository.</p><div class="card-bottom"><span class="project-meta">ServiceNow</span><a href="https://github.com/arizzi74/digitalvisitor" aria-label="Digital Visitor repository">View repository <span aria-hidden="true">↗</span></a></div></article>
+      </div>
+    </section>
+
+  </main>
+  <footer class="site-footer wrap"><a class="brand" href="./"><span class="brand-mark" aria-hidden="true">[ / ]</span><span>Project index</span></a><a class="footer-source" href="https://github.com/arizzi74?tab=repositories">GitHub repositories <span aria-hidden="true">↗</span></a><a href="#main">Back to top <span aria-hidden="true">↑</span></a></footer>
+</body>
+</html>
