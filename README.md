@@ -8,11 +8,11 @@ From this directory, run `python3 -m http.server 8000` and visit http://localhos
 
 ## Publish
 
-The root user site lives in the **arizzi74/arizzi74.github.io** repository. GitHub Pages uses **GitHub Actions** as its deployment source.
+The root user site lives in the **arizzi74/arizzi74.github.io** repository. GitHub Pages publishes from the root of the `main` branch.
 
-Push changes to `main` to run **Deploy GitHub Pages** automatically. The workflow can also be started manually from the Actions tab.
+Push changes to `main` to publish automatically. GitHub's **pages build and deployment** workflow handles deployment; no custom build workflow is needed.
 
-The included workflow deploys only the public site files and assets. Existing project sites retain their own paths, including `/Smart-Stage/` and `/Codex-Telegram-Gateway/`.
+The `.nojekyll` file keeps this a plain static site. Existing project sites retain their own paths, including `/Smart-Stage/` and `/Codex-Telegram-Gateway/`.
 
 ## Update projects
 
