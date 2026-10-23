@@ -22,12 +22,12 @@ The collection includes all 10 public repositories returned by the GitHub API on
 
 ## Design and assets
 
-The palette follows Smart Stage and MACT: near-black backgrounds, muted mint accents, and restrained lavender. The layout takes inspiration from https://colelevy08.github.io/Portfolio2026/ through large serif headings, monospace labels, generous spacing, and fine dividers. It uses alternating screenshot features and numbered repository entries, with project-focused copy. Fonts use local system serif, sans-serif, and monospace stacks. Screenshots are local copies from the project websites and show sample data:
+The visual style matches the MACT project site: dark blue backgrounds and panels, cyan and purple accents, green status indicators, and the same text, muted-text, and border colors. Headings and body copy share MACT's local system sans-serif stack and heading weights; technical labels use its monospace stack. Rounded panels, buttons, and keyboard focus outlines follow the same treatment. The collection keeps its alternating screenshot features and numbered repository entries, with project-focused copy. Screenshots are local copies from the project websites and show sample data:
 
 - `assets/smart-stage.png`: https://arizzi74.github.io/Smart-Stage/assets/admin.png
 - `assets/smart-stage-remote.png`: https://arizzi74.github.io/Smart-Stage/assets/remote.png
 - `assets/mact.png`: https://arizzi74.github.io/MACT/assets/screenshots/webui-desktop.png — actual MACT WebUI with fictional demo sessions, copied from the MACT project site assets on 2026-10-23.
 
-MACT is Multi Agent Control Tower, the project's current name. Its card describes the supported Codex workflow: session switching, context usage visibility, terminal-style chat, access across servers through the web or Telegram, and local Codex CLI support. Context visibility helps users manage their workflow; it does not imply automatic token savings.
+MACT is Multi Agent Control Tower, the project's current name. Its card describes the coding agent workflow: session switching, context usage visibility, terminal-style chat, access across servers through the web or Telegram, and local CLI access. The linked MACT website and documentation provide current runtime compatibility. Context visibility helps users manage their workflow; it does not imply automatic token savings.
 
 No external fonts, analytics, client-side API calls, or third-party scripts are required.
