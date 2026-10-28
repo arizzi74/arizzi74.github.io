@@ -28,6 +28,6 @@ The visual style matches the MACT project site: dark blue backgrounds and panels
 - `assets/smart-stage-remote.png`: https://arizzi74.github.io/Smart-Stage/assets/remote.png
 - `assets/mact.png`: https://arizzi74.github.io/MACT/assets/screenshots/webui-desktop.png — actual MACT WebUI with fictional demo sessions, copied from the MACT project site assets on 2026-10-23.
 
-MACT is Multi Agent Control Tower, the project's current name. Its card describes the coding agent workflow: session switching, context usage visibility, terminal-style chat, access across servers through the web or Telegram, and local CLI access. The linked MACT website and documentation provide current runtime compatibility. Context visibility helps users manage their workflow; it does not imply automatic token savings.
+MACT is Multi Agent Control Tower. Its 0.7.0 card presents current Codex and Claude Code support through dedicated workers, with session switching, reported usage, and web or Telegram access across servers. It distinguishes Codex steering from queued Claude follow-ups; shared local terminal attachment and project archive/restore are Codex features. The card links to the 0.7.0 release and the MACT website for installation and provider details. Context visibility helps users manage their workflow; it does not imply automatic token savings.
 
 No external fonts, analytics, client-side API calls, or third-party scripts are required.
